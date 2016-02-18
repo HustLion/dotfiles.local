@@ -30,3 +30,7 @@ Symlink:
 ```
 for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
 ```
+
+
+# Dotfiles Resources
+<http://dotfiles.github.io/>
