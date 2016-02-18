@@ -7,7 +7,9 @@ First get [thougtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
 install it.
 
 Then in the folder of this repo, type:
-`for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done`
+```
+for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
+```
 
 Then run `rcup`.
 
@@ -25,4 +27,6 @@ Add to git:
 `git add .`
 
 Symlink:
-`for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done`
+```
+for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
+```
