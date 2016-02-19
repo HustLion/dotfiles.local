@@ -6,10 +6,13 @@ My dotfiles.local
 First get [thougtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
 install it.
 
+Clone this repo:
+`git clone --recursive https://github.com/HustLion/dotfiles.local.git`
+
+
 Then in the folder of this repo, type:
 ```
 for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
-ln -sF "`pwd`/profile" ~/.profile 
 ```
 
 Then run `rcup`.
@@ -41,5 +44,11 @@ Check out the path: `cat /etc/paths`
 Check out bash version: `bash --version`
 
 Check out bash path: `which bash`
+
+Add to `profile`:
+```
+echo "eval \`dircolors `pwd`/dircolors-solarized/dircolors.ansi-universal\`" \
+>> profile
+```
 # Dotfiles Resources
 <http://dotfiles.github.io/>
