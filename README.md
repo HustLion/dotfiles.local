@@ -9,12 +9,17 @@ install it.
 Then in the folder of this repo, type:
 ```
 for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
+ln -sF "`pwd`/profile" ~/.profile 
 ```
 
 Then run `rcup`.
 
 And it's done.
 
+# To be integrated
+Xcode theme:
+cp Solarized\ -\ Dark.dvtcolortheme \
+~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 
 # Useful commands
 To find the dotfiles of interest and copy them:
@@ -31,6 +36,10 @@ Symlink:
 for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
 ```
 
+Check out the path: `cat /etc/paths`
 
+Check out bash version: `bash --version`
+
+Check out bash path: `which bash`
 # Dotfiles Resources
 <http://dotfiles.github.io/>
