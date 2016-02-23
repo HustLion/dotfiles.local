@@ -95,3 +95,6 @@ alias ls="ls --color=auto"
 
 # git-flow
 source ~/.git-flow-completion.zsh
+
+# zsh-autosuggestions --> not really working
+plugins=(zsh-autosuggestions)
