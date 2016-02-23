@@ -9,13 +9,8 @@ install it.
 Clone this repo:
 `git clone --recursive https://github.com/HustLion/dotfiles.local.git`
 
-
-Then in the folder of this repo, type:
-```
-for file in *.local; do ln -sF "`pwd`/$file" ~/".$file"; done
-```
-
-Then run `rcup`.
+Run:
+`./autoconfig.sh`
 
 And it's done.
 

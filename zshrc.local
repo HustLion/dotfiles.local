@@ -53,7 +53,7 @@ DEFAULT_USER="Hustlion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting )
 
 # User configuration
 
@@ -91,3 +91,7 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 eval `dircolors /Users/Hustlion/dotfiles.local/dircolors-solarized/dircolors.ansi-universal`
 alias ls="ls --color=auto"
+
+
+# git-flow
+source ~/.git-flow-completion.zsh
